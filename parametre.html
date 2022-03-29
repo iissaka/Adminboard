@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+  <head>
+    <script src="https://cdn.tiny.cloud/1/f2aqi8luhuvr8467fv6sg5k5fm8662zumphm0yi8jdfiggfn/tinymce/5/tinymce.min.js"
+      referrerpolicy="origin"></script>
+  </head>
+  <title>Parametre</title>
+</head>
+
+<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand pl-5 ml-5" href="#">Adminboard</a>
+
+			<button class="navbar-toggler" data-target="#navtarget" data-toggle="collapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navtarget" style="right:15px;">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link" href="index.html">Dashboard</a>
+					</li>
+				
+					<li class="nav-item">
+						<a href="post.html" class="nav-link">Posts</a>
+					</li>
+				
+					<li class="nav-item">
+						<a href="categorie.html" class="nav-link">Categories</a>
+					</li>
+				
+                    <li class="nav-item"><a class="nav-link " href="users.html">Users</a></li>
+				</ul>
+
+				<ul class="navbar-nav ml-auto pr-5" >
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" id="dropdrownmenu" data-toggle="dropdown"><i class="fas fa-user"></i>Bienvenue Mael</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="profile.html"><i class="fas fa-user-circle"></i>Profile</a>
+				    		<a class="dropdown-item" href="parametre.html"><i class="fas fa-cog"></i>Parametres</a>
+						</div>
+					</li>
+				
+					<li class="nav-item">
+						<a href="login.html" class="nav-link"><i class="fas fa-user-times pr-1"></i>Logout</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+        <div class="pt-5 important mt-2 bg-primary p-2">
+			<div class="container">
+                <h1 class="text-light"><i class="fas fa-cog"></i> Parametre </h1>
+			</div>
+		</div>
+        <section>
+            <div class="container">
+              <div class="row">
+                <nav class="navbar navbar-light bg-light ">
+                  <button class="btn btn text-dark bg-none justify-content-end mt-3 " type="button"> <a href="index.html"><i
+                        class="fas fa-arrow-left"></i>Back To DashBord</a></button>
+                  <form class="container justify-content-end">
+      
+      
+                    <button class="btn btn-danger me-2 w-25" type="button"> <i class="fas fa-times"></i> Save Changes</button>
+      
+                  </form>
+                </nav>
+              </div>
+      
+              <div class="row py-5">
+                <div class="col-lg-7 col-sm-12">
+      
+                  <div class="card">
+                    <div class="card-head bg-secondary">
+                      <h2>Edit Seting</h2>
+                    </div>
+                    <div class="card-body">
+                      Allow User Registration
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Yes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          No
+                        </label>
+                      </div>
+                      Home Page format
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio" checked>
+                        <label class="form-check-label" for="flexRadio">
+                          Post Index
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadio" id="flexRadioChecked" checked>
+                        <label class="form-check-label" for="flexRadioChecked">
+                          Single Page
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <br>
+        <footer class="bg-dark p-5">
+            <div class="text-center text-white">
+                <p>Copyright &copy 2022 Adminboard</p>
+            </div>
+        </footer>
+        <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" fill="currentcol-lg-3 col-sm-12or" class=" bi-person"
+        viewBox="0 0 16 16">
+        <path
+          d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+      </svg>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+      <a href="https://icons8.com/icon/JidXFhp4X9De/k"></a>
+  
+
+</body> 
+</html>       
